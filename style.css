@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.address-header h1 {
+    font-weight: bolder;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.address-form {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.address-form input {
+    width: 25rem;
+    height: 2.75rem;
+    margin-bottom: 1.5rem;
+}
